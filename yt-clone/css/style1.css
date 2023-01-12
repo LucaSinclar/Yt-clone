@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #333334;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  color: #db8f00;
+}
+
+nav {
+  margin-top: 19px;
+}
+nav i, nav a {
+  cursor: pointer;
+  z-index: 1;
+}
+nav .mainbtn {
+  position: absolute;
+  left: 37px;
+  font-size: 27px;
+}
+nav .mainbtn .fa-bars-staggered {
+  margin-right: 19px;
+}
+nav .mainbtn a {
+  color: #f1f1f1;
+}
+nav .user-nav {
+  font-size: 27px;
+  position: absolute;
+  right: 60px;
+}
+nav .user-nav i {
+  margin-left: 40px;
+}
+nav .left-section .wrapper {
+  display: flex;
+  left: 14px;
+  top: 6.2vh;
+  flex-direction: column;
+}
+nav .left-section .wrapper a {
+  position: relative;
+  font-size: 20px;
+  padding: 13px;
+  margin-bottom: 15px;
+  background: none;
+  color: #f1f1f1;
+  display: flex;
+  border: none;
+  border-radius: 19px;
+  transition: background-color 0.1s;
+}
+nav .left-section .wrapper a i {
+  margin-right: 13px;
+}
+nav .left-section .wrapper .first-btn {
+  background-color: #272727;
+}
+nav .left-section .wrapper .underline {
+  border-top: 2px solid #272727;
+  width: 100%;
+  margin: 15px 0 31px;
+}
+nav .left-section .wrapper a:hover {
+  background-color: #272727;
+}
+
+.left-section .wrapper {
+  position: absolute;
+  left: 14px;
+  top: 11vh;
+  margin-top: 20px;
+}
+.left-section .wrapper .first-btn {
+  background-color: #272727;
+}
+.left-section .wrapper .underline {
+  border-top: 2px solid #272727;
+}
+.left-section .wrapper a:hover {
+  background-color: #272727;
+}
+
+main {
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+main h2 {
+  font-size: 50px;
+  color: #f1f1f1;
+  margin-bottom: 150px;
+}
+main .main-text {
+  color: #f1f1f1;
+  font-size: 32px;
+  margin-bottom: 45px;
+}
+main a {
+  color: #db8f00;
+  background: none;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 14px;
+}/*# sourceMappingURL=style1.css.map */

@@ -1,0 +1,244 @@
+$secondary-color: #db8f00;
+$main-color: #f1f1f1;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #333334;
+    font-family: 'Montserrat', sans-serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  nav {
+    position: sticky;
+    top: 0;
+    background-color: #333334;
+    width: 100%;
+    height: 145px;
+    section {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      left: 50%;
+      transform: translateX(-50%);
+      .radius {
+        border-radius: 10px;
+        padding: 13px;
+        background: none;
+      }
+      
+      .search-main{
+        margin-top: 20px;
+        .nav-type {
+          width: 350px;
+          font-size: 17px;
+          margin-right:8px;
+          color: $main-color;
+        }
+      }
+      
+      button {
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+        color: $secondary-color;
+      }
+      
+    }
+
+    .fa-magnifying-glass {
+      margin-top: 18px;
+    }
+    i{
+    color: $secondary-color; }
+    .top1 {
+      font-size: 27px;
+      margin-top: 20px;
+    }
+    .mainbtn {
+      color: $main-color;
+      position: absolute;
+      left: 37px;
+      font-size: 27px;
+      cursor: pointer;
+      .fa-bars-staggered {
+        margin-right: 19px;
+      }
+      a {
+        color: $main-color;
+      }
+    }
+
+    .mainbtn1 {
+      color: $main-color;
+      position: absolute;
+      left: 37px;
+      font-size: 27px;
+      margin-top: -20px;
+      .fa-bars-staggered {
+        margin-right: 19px;
+      }
+      a {
+        color: $main-color;
+      }
+    }
+    .user-nav {
+      position: absolute;
+      right: 60px;
+      i {
+        margin-left: 40px;
+        cursor: pointer;
+      }
+    }
+    .under-nav {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      top: 11vh;
+        a {
+          cursor: pointer;
+          color: $main-color;
+          background-color: #272727;
+          padding: 9px 10px;
+          margin-left: 10px;
+          border-radius: 9px;
+          border: none;
+          font-size: 16px;
+          transition: background-color .3s;
+      }
+      .active {
+        background-color: $main-color;
+        color: #272727;
+      }
+      .other-btn:hover {
+        background-color: #2b2c2b;
+      }
+    }
+    .left-section {
+      position: relative;
+      margin-top: 20px;
+      .wrapper {
+        display: flex;
+        left: 14px;
+        top: 2vh;
+        flex-direction: column;
+        a {
+          position: relative;
+          cursor: pointer;
+          font-size: 20px;
+          padding: 13px;
+          margin-bottom: 15px;
+          background: none;
+          color: $main-color;
+          display: flex;
+          border: none;
+          border-radius: 19px;
+          transition: background-color .1s;
+          i{
+            margin-right: 13px;
+          }
+          
+        }
+        .first-btn {
+          background-color: #272727;
+        }
+        .underline {
+          border-top: 2px solid #272727;
+          width: 100%;
+          margin: 15px 0 31px;
+      }
+      a:hover {
+        background-color: #272727;
+      }
+      }
+    }
+    .others-left {
+      margin-top: 19px;
+    }
+    
+  }
+
+  
+
+main {
+  margin-top: 0px;
+  z-index: -20;
+  .container {
+    margin: 0 auto;
+    width: 78%;
+    margin-right: 100px;
+    .movie-section {
+      display: inline-block;
+      iframe {
+        border-radius: 15px;
+        margin: 20px 10px;
+      }
+      p {
+        scroll-margin-top: 150px;
+        color: $main-color;
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 10px;
+      }
+      }
+    
+  }
+}
+
+.left-section {
+  .wrapper {
+    position: absolute;
+    display: flex;
+    left: 14px;
+    top: 11vh;
+    flex-direction: column;
+    margin-top: 20px;
+    button {
+      position: relative;
+      position: sticky;
+      cursor: pointer;
+      font-size: 20px;
+      padding: 13px;
+      margin-bottom: 15px;
+      background: none;
+      color: $main-color;
+      display: flex;
+      border: none;
+      border-radius: 19px;
+      transition: background-color .1s;
+      i{
+        margin-right: 13px;
+      }
+    }
+    .first-btn {
+      background-color: #272727;
+    }
+    .underline {
+      border-top: 2px solid #272727;
+      width: 100%;
+      margin: 15px 0 31px;
+  }
+  button:hover {
+    background-color: #272727;
+  }
+  }
+}
+
+.others {
+
+  h2 {
+    position: absolute;
+    color: $main-color;
+    font-size: 50px;
+  }
+}
+  
